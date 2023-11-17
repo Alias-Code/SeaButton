@@ -1,7 +1,8 @@
 /* GLOBAL */
 
 :root {
-  --color: #0505a9;
+  --color: #0505a9; //Adjust it with the color you want
+  --fs: 16px; //Adjust it to the size of your text
 }
 
 body,
@@ -18,7 +19,7 @@ button {
 
 /* SEA BUTTON */
 
-.blob {
+.sea {
   background-color: var(--color);
   border-radius: 100%;
   position: absolute;
@@ -34,7 +35,7 @@ button {
   align-items: center;
 }
 
-#blob-button {
+#sea-button {
   border-radius: 40px;
   background-color: white;
   width: 15em;
@@ -46,16 +47,17 @@ button {
   align-items: center;
 }
 
-#blob-button p {
+#sea-button p {
   color: var(--color);
   text-transform: uppercase;
   font-weight: bold;
+  font-size: var(--fs);
   position: absolute;
   transform: translateX(-50%);
   left: 50%;
 }
 
-#blob-button i {
+#sea-button i {
   color: white;
   position: absolute;
   z-index: 2;
@@ -66,25 +68,25 @@ button {
   transition: bottom 0.4s ease;
 }
 
-#blob1 {
+#sea1 {
   width: 90px;
   height: 90px;
   left: -10%;
 }
 
-#blob2 {
+#sea2 {
   width: 90px;
   height: 90px;
   left: 15%;
 }
 
-#blob3 {
+#sea3 {
   width: 90px;
   height: 90px;
   left: 40%;
 }
 
-#blob4 {
+#sea4 {
   width: 90px;
   height: 90px;
   left: 65%;
